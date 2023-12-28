@@ -21,7 +21,7 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-
+*.DS_Store
 ## Obj-C/Swift specific
 *.hmap
 
@@ -88,3 +88,9 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+Africa/Africa/.DS_Store
+
+Africa/.DS_Store
+
+Africa/Africa/Resources/.DS_Store
