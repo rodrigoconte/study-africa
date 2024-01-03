@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Cover: Codable, Identifiable {
+struct CoverModel: Codable, Identifiable {
     let id: Int
     let name: String
 }

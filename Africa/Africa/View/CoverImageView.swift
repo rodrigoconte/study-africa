@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CoverImageView: View {
     // MARK: - Properties
-    let covers: [Cover]
+    let covers: [CoverModel]
     
     // MARK: - Body
     var body: some View {
@@ -27,6 +27,6 @@ struct CoverImageView: View {
 // MARK: - Preview
 
 #Preview {
-    CoverImageView(covers: Bundle.main.decode("covers.json"))
+    CoverImageView(covers: Bundle.main.decode([CoverModel].self, from: "covers.json"))
         .previewLayout(.fixed(width: 400, height: 300))
 }
