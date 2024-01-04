@@ -37,3 +37,8 @@ struct AnimalListItemView: View {
         }// - HStack
     }
 }
+
+#Preview {
+    @State var animals: [AnimalModel] = Bundle.main.decode([AnimalModel].self, from: "animals.json")
+    return AnimalListItemView(animal: animals[1])
+}
