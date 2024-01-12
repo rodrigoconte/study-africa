@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct VideoListItem: View {
+struct VideoListItemView: View {
     
     let video: VideoModel
     
@@ -43,5 +43,5 @@ struct VideoListItem: View {
 
 #Preview {
     @State var videos: [VideoModel] = Bundle.main.decode([VideoModel].self, from: "videos.json")
-    return VideoListItem(video: videos[1])
+    return VideoListItemView(video: videos[1])
 }

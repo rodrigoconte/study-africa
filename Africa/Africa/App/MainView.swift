@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct MainView: View {
+    // - Properties
+    let videosData: [VideoModel] = Bundle.main.decode([VideoModel].self, from: "videos.json")
+    
+    // - Body
     var body: some View {
         TabView {
             ContentView()
@@ -15,7 +19,7 @@ struct MainView: View {
                     Image(systemName: "square.grid.2x2")
                     Text("Browse")
                 }
-            VideoListView()
+            VideoListView(videos: videosData)
                 .tabItem {
                     Image(systemName: "play.rectangle")
                     Text("Watch")
