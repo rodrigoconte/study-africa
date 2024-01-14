@@ -44,6 +44,7 @@
 		AA85AF102B536302008656FA /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA85AF062B536301008656FA /* gorilla.mp4 */; };
 		AA85AF112B536302008656FA /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA85AF072B536301008656FA /* cheetah.mp4 */; };
 		AA85AF122B536302008656FA /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA85AF082B536301008656FA /* lion.mp4 */; };
+		AA85AF142B544819008656FA /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85AF132B544819008656FA /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		AA85AF062B536301008656FA /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
 		AA85AF072B536301008656FA /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 		AA85AF082B536301008656FA /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
+		AA85AF132B544819008656FA /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				AA8127132B3E4D3F002AB615 /* Cover.swift */,
 				AA81271A2B44F5F6002AB615 /* Animal.swift */,
 				AA85AEE22B50BCAF008656FA /* VideoModel.swift */,
+				AA85AF132B544819008656FA /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				AA8127272B4CCD37002AB615 /* ExternalWebLinkView.swift in Sources */,
 				AA8127082B3D07EC002AB615 /* VideoListView.swift in Sources */,
 				AA85AEE32B50BCB0008656FA /* VideoModel.swift in Sources */,
+				AA85AF142B544819008656FA /* LocationModel.swift in Sources */,
 				AA81270C2B3D080E002AB615 /* GalleryView.swift in Sources */,
 				AA8127212B477CB2002AB615 /* InsetGalleryView.swift in Sources */,
 				AA8127172B3E4E24002AB615 /* CodableBundleExtension.swift in Sources */,
