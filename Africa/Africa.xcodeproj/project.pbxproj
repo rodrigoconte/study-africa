@@ -45,6 +45,7 @@
 		AA85AF112B536302008656FA /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA85AF072B536301008656FA /* cheetah.mp4 */; };
 		AA85AF122B536302008656FA /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA85AF082B536301008656FA /* lion.mp4 */; };
 		AA85AF142B544819008656FA /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85AF132B544819008656FA /* LocationModel.swift */; };
+		AA85AF162B5F4DC3008656FA /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85AF152B5F4DC3008656FA /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		AA85AF072B536301008656FA /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 		AA85AF082B536301008656FA /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
 		AA85AF132B544819008656FA /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		AA85AF152B5F4DC3008656FA /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 				AA8127262B4CCD37002AB615 /* ExternalWebLinkView.swift */,
 				AA85AEE42B50BCE7008656FA /* VideoListItemView.swift */,
 				AA85AEE62B5358CB008656FA /* VideoPlayerView.swift */,
+				AA85AF152B5F4DC3008656FA /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				AA85AEEA2B535F2D008656FA /* VideoPlayerHelper.swift in Sources */,
 				AA8127252B4C743A002AB615 /* InsetMapView.swift in Sources */,
 				AA8127142B3E4D3F002AB615 /* Cover.swift in Sources */,
+				AA85AF162B5F4DC3008656FA /* MapAnnotationView.swift in Sources */,
 				AA8127272B4CCD37002AB615 /* ExternalWebLinkView.swift in Sources */,
 				AA8127082B3D07EC002AB615 /* VideoListView.swift in Sources */,
 				AA85AEE32B50BCB0008656FA /* VideoModel.swift in Sources */,
