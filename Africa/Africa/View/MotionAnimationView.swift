@@ -28,12 +28,12 @@ struct MotionAnimationView: View {
         return CGFloat(Double.random(in: 0.1...2.0))
     }
     
-    private func randomSpeed() {
-        
+    private func randomSpeed() -> Double {
+        return Double.random(in: 0.5...3)
     }
     
-    private func randomDelay() {
-        
+    private func randomDelay() -> Double {
+        return Double.random(in: 0.5...2)
     }
     
     var body: some View {
@@ -48,16 +48,15 @@ struct MotionAnimationView: View {
                                   y: randomCoordinate(max: geometry.size.height))
                         .animation(.interpolatingSpring(stiffness: 0.5, damping: 0.5)
                             .repeatForever()
-                            .speed(2)
-                            .delay(1)
+                            .speed(randomSpeed())
+                            .delay(randomDelay())
                         )
                         .onAppear(perform: {
                             isAnimating = true
                         })
                 }//: Loop
-                
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             }//: Zstack
+            .drawingGroup()
         }//: Geometry
     }
 }
